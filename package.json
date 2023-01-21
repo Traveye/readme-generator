@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Traveye/readme-generator/issues"
   },
-  "homepage": "https://github.com/Traveye/readme-generator#readme"
+  "homepage": "https://github.com/Traveye/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  }
 }
