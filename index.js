@@ -61,8 +61,11 @@ inquirer
     // let ghub = `[GitHub](https://github.com/${answers.github})`;
 
     //swich case to assign license badge url
+    console.log(answers.github.length)
+
     let badge;
     let link = answers.license;
+  
 
     switch (link) {
       case "MIT":
@@ -114,10 +117,11 @@ ${badge}
     ${answers.license}
 
   ## Questions
-    You can check out this and my other projects at [GitHub](https://github.com/${answers.github}). Please feel free to contact me with any questions at ${answers.email}.
+You can check out this and my other projects at [GitHub](https://github.com/${answers.github}). Please feel free to contact me with any questions at ${answers.email}.
     `;
 
     fs.writeFile("README1.md", readme, (err) =>
       err ? console.log(err) : console.log("success")
     );
   });
+  
