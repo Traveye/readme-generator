@@ -58,7 +58,7 @@ inquirer
   ])
   .then((answers) => {
     //ghub link
-    let ghub = `[GitHub](https://github.com/${answers.github})`;
+    // let ghub = `[GitHub](https://github.com/${answers.github})`;
 
     //swich case to assign license badge url
     let badge;
@@ -114,7 +114,7 @@ ${badge}
     ${answers.license}
 
   ## Questions
-    You can check out this and my other projects at ${ghub}. Please feel free to contact me with any questions at ${answers.email}.
+    You can check out this and my other projects at [GitHub](https://github.com/${answers.github}). Please feel free to contact me with any questions at ${answers.email}.
     `;
 
     fs.writeFile("README1.md", readme, (err) =>
