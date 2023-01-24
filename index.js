@@ -66,25 +66,34 @@ inquirer
 
     switch (link) {
       case "MIT":
-        badge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+        badge = `![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg)`;
         break;
       case "GPL-3.0":
-        badge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
+        badge = `![GitHub license](https://img.shields.io/badge/License-GPLv3-blue.svg)`;
         break;
       case "Apache License 2.0":
-        badge = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+        badge = `![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`;
         break;
       case "GPL-2.0":
-        badge = `[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`;
+        badge = `![GitHub license](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`;
         break;
       case "BSD 3-Clause":
-        badge = `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
+        badge = `![GitHub license](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)`;
         break;
     }
 
     let readme = `
   # ${answers.title}
-    ${badge}
+${badge}
+
+  ### Table of Contents
+  [Description](#description)<br>
+  [Usage](#usage)<br>
+  [Installation](#installation)<br>
+  [Test](#test)<br>
+  [Credits](#credits)<br>
+  [License](#license)<br>
+  [Questions](#questions)<br>
 
   ## Description
     ${answers.description}

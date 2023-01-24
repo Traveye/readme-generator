@@ -1,25 +1,34 @@
 
-  # it is
-    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  # yes
+![GitHub license](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
+
+  ### Table of Contents
+  [Description](#description)<br>
+  [Usage](#usage)<br>
+  [Installation](#installation)<br>
+  [Test](#test)<br>
+  [Credits](#credits)<br>
+  [License](#license)<br>
+  [Questions](#questions)<br>
 
   ## Description
-    it goes
+    
 
   ## Usage
-    no
+    
 
   ## Installation
-    maybe
+    
 
   ## Test
-    sure
+    n
 
   ## Credits
-    ok
+    n
 
   ## License 
-    Apache License 2.0
+    BSD 3-Clause
 
   ## Questions
-    You can check out this and my other projects at [GitHub](https://github.com/nonon). Please feel free to contact me with any questions at oooo.
+    You can check out this and my other projects at [GitHub](https://github.com/n). Please feel free to contact me with any questions at n.
     
