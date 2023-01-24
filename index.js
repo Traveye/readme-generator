@@ -57,9 +57,7 @@ inquirer
     },
   ])
   .then((answers) => {
-    //ghub link
-    // let ghub = `[GitHub](https://github.com/${answers.github})`;
-
+   
     //swich case to assign license badge url
     console.log(answers.github.length)
 
